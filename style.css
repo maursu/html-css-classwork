@@ -1,0 +1,53 @@
+.headers{
+    color: red;
+}
+#header-2{
+    color: blue;
+}
+#header-3{
+    background-color: black;
+}
+#header-4{
+    border-style: groove;
+    border-width: 2px;
+    border-color: aquamarine;
+    border-radius: 10px;
+}
+
+@keyframes bounce {
+	0%, 20%, 60%, 100% {
+		transform: translateY(0);
+		transform: translateY(0);
+	}
+
+	40% {
+		transform: translateY(-20px);
+		transform: translateY(-20px);
+	}
+
+	80% {
+		transform: translateY(-10px);
+		transform: translateY(-10px);
+	}
+}
+
+#header-5:hover{
+    animation: bounce 1s ;
+}
+
+.list2{
+    list-style-type: square;
+}
+
+
+.task13{
+	width: 100px;
+	height: 100px;
+	background-color: green;
+	margin: 10px;
+}
+
+.container{
+	margin-left: 43%;
+	margin-right: 43%;
+}
